@@ -1,4 +1,3 @@
-
     <h1>Вход в административный раздел</h1>
     <form action="<?= GetCurUrl()?>" method="post" class="form-horizontal" role="form">
         <input type="hidden" name="is_login" value="1">
@@ -8,9 +7,9 @@
             </div>
         </div>
         <div class="form-group">
-            <label for="inputEmail1" class="col-lg-2 control-label">Логин</label>
+            <label for="inputEmail" class="col-lg-2 control-label">Логин</label>
             <div class="col-lg-6">
-                <input type="text" class="form-control" id="inputEmail1" autocomplete="on" name="login" value="<?= Post("login")?>" placeholder="Введите ваш логин">
+                <input type="text" class="form-control" id="inputEmail" autocomplete="on" name="login" value="<?= Post("login")?>" placeholder="Введите ваш логин">
             </div>
         </div>
         <div class="form-group">
