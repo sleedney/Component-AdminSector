@@ -7,9 +7,9 @@
             </div>
         </div>
         <div class="form-group">
-            <label for="inputEmail" class="col-lg-2 control-label">Логин</label>
+            <label for="inputLogin" class="col-lg-2 control-label">Логин</label>
             <div class="col-lg-6">
-                <input type="text" class="form-control" id="inputEmail" autocomplete="on" name="login" value="<?= Post("login")?>" placeholder="Введите ваш логин">
+                <input type="text" class="form-control" id="inputLogin" autocomplete="on" name="login" value="<?= Post("login")?>" placeholder="Введите ваш логин">
             </div>
         </div>
         <div class="form-group">
