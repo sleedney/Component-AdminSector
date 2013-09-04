@@ -39,6 +39,6 @@
             }
         }
 
-        $msg = "<div class='alert alert-danger'>" . implode('<br>', $errs) . "</div>";
+        $msg = MsgErr(implode('<br>', $errs));
     }
 ?>
