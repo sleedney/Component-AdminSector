@@ -13,7 +13,7 @@
         <meta name="robots" content="noindex, nofollow">
     </head>
     <body>
-        <?php IncludeCom('dev/bootstrap3_menu', array('menu' => $menu, 'logo' => $logo))?>
+        <?php IncludeCom('admin/admin_menu', array('menu' => $menu, 'logo' => $logo))?>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
