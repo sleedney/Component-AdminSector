@@ -17,7 +17,10 @@
         $links = array($v['link']);
         foreach ($v['list'] as $subLink)
         {
-            $links[] = $subLink['link'];
+            if (is_array($subLink))
+            {
+                $links[] = $subLink['link'];
+            }
         }
 
         if (in_array(GetCurUrl(), $links))
