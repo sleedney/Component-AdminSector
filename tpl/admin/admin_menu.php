@@ -1,4 +1,3 @@
-
     <?php IncludeCom('dev/bootstrap3')?>
     <head>
         <link rel="stylesheet" type="text/css" href="<?= Root('i/css/admin/admin_menu.css')?>" />
@@ -11,7 +10,7 @@
             <!-- Логотип и кнопка открытия меню сгруппированы для лучшего отображения на мобильных устройствах -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-menu-collapse">
-                    <span class="sr-only"><?= $g_lang['menu']?></span>
+                    <span class="sr-only">Меню</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
