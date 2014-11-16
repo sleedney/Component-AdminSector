@@ -24,7 +24,7 @@
         }
 
         // Авторизует пользователя, что бы при будущих обращениях он проходил как авторизованный при успехе вернёт true и запомнит что авторизован, иначе false
-        public function Login($login, $pwd_hash)
+        public function DoLogin($login, $pwd_hash)
         {
             global $g_config;
             if (empty($login) || empty($pwd_hash))
@@ -44,7 +44,7 @@
         }
 
         // Проверяет авторизацию, и если человек не авторизован, то редиректим
-        public function ChkLogin()
+        public function CheckLogin()
         {
             global $g_config;
             $query = strtolower(GetQuery());
@@ -59,7 +59,7 @@
             }
         }
 
-        public function Logout()
+        public function DoLogout()
         {
             setcookie('auto_admin_auth_login',    '', -1, '/', DOMAIN_COOKIE);
             setcookie('auto_admin_auth_pwd_hash', '', -1, '/', DOMAIN_COOKIE);
