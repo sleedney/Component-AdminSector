@@ -1,6 +1,7 @@
 <?php
 
-    require_once BASEPATH . 'core/init/db.php';
+    if (is_file(BASEPATH . 'core/init/db.php'))      require_once BASEPATH . 'core/init/db.php';
+    if (is_file(BASEPATH . 'core/init/mongodb.php')) require_once BASEPATH . 'core/init/mongodb.php';
 
     // Изначальная папка нам может понадобится для CKEditor
     $g_config['extrapacker']['non_admin_dir'] = $g_config['extrapacker']['dir'];
