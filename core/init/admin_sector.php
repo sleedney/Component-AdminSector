@@ -16,7 +16,7 @@
         $g_config['mainTpl']                = 'admin/main_tpl';
 
         $g_adminAuth = new AdminModel();
-        $g_adminAuth->ChkLogin();
+        $g_adminAuth->CheckLogin();
         define('IS_ADMIN_AUTH', $g_adminAuth->IsAuth());
     }
     else
