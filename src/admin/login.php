@@ -27,7 +27,7 @@
 
         if (!count($errs))
         {
-            $isLogin = $admin->Login($login, $admin->MakeHash($pwd));
+            $isLogin = $admin->DoLogin($login, $admin->MakeHash($pwd));
             if ($isLogin)
             {
                 header("Location: " . SiteRoot($g_config['admin_sector']['after_login_page']));
