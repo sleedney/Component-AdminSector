@@ -7,7 +7,7 @@
         <link rel="shortcut icon" href="<?= Root('favicon.ico')?>" type="image/x-icon" />
         <meta http-equiv="cleartype" content="on">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.css')?>" />
+        <link rel="stylesheet" type="text/css" href="<?= Root('i/css/dev/funcs.less')?>" />
         <?php IncludeCom('dev/bootstrap3')?>
         <!-- extraPacker -->
         <meta name="robots" content="noindex, nofollow">
